@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class StudeClassController {
+public class SubClassController {
 	@GetMapping("welcome1")
 	public String getWelcomeMessage(){
 		return "i am in controller class";
